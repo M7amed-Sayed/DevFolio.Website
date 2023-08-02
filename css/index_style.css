@@ -1,0 +1,118 @@
+.Home
+{
+    height: 100vh;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.cover
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.5);
+    color: white;
+    text-align: center;      
+}
+.Home .cover .index
+{
+padding: 300px 50px;    
+}
+.Home .cover .index h2
+{
+    font-size: 70px;
+
+}
+
+.Home .cover .typing::after
+{
+    font-size: 34px;
+    font-weight:bold;
+    content: "";
+    animation: Typing infinite 20s;
+}
+@keyframes Typing
+{
+    0%{  content: "D";   }
+    2%{  content: "De";   }
+    4%{  content: "Des";   }
+    6%{  content: "Desi";   }
+    8%{  content: "Desig";   }
+    10%{  content: "Design";   }
+    12%{  content: "Designe";   }
+    14%{  content: "Designer";   }
+    16%{  content: "Designer";   }
+    18%{  content: "Designe";   }
+    20%{  content: "Design";   }
+    22%{  content: "Desig";   }
+    24%{  content: "Desi";   }
+    26%{  content: "Des";   }
+    28%{  content: "De";   }
+    30%{  content: "D";   }
+    32%{  content: "";   }
+    34%{  content: "";   }
+    36%{  content: "";   }
+    38%{  content: "P";   }
+    40%{  content: "Ph";   }
+    42%{  content: "Pho";   }
+    44%{  content: "Phot";   }
+    46%{  content: "Photo";   }
+    48%{  content: "Photog";   }
+    50%{  content: "Photogr";   }
+    52%{  content: "Photogra";   }
+    54%{  content: "Photograp";   }
+    56%{  content: "Photograph";   }
+    58%{  content: "Photographe";   }
+    60%{  content: "Photographer";   }
+    62%{  content: "Photographer";   }
+
+    64%{  content: "Photographe";   }
+    66%{  content: "Photograph";   }
+    68%{  content: "Photograp";   }
+    70%{  content: "Photogra";   }
+    72%{  content: "Photogr";   }
+    74%{  content: "Photog";   }
+    76%{  content: "Photo";   }
+    78%{  content: "Phot";   }
+    80%{  content: "Pho";   }
+    82%{  content: "Ph";   }
+    84%{  content: "p";   }
+    86%{  content: "";   }
+    88%{  content: "";   }
+    90%{  content: "";   }
+    92%{  content: "W";   }
+    94%{  content: "We";   }
+    96%{  content: "Web";   }
+    98%{  content: "We";   }
+    100%{  content: "W";   }
+
+}
+.PROJECTS
+{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.cove
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 132, 190, 0.8);
+    color: white;
+    text-align: center;  
+}
+.SLIDER
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.coveR_SLIDER
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 132, 190, 0.8);
+    color: white;
+}
